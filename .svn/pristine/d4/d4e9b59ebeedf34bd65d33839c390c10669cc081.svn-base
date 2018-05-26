@@ -1,0 +1,10 @@
+# \u5b9a\u4e49\u5168\u5c40\u8df3\u8f6c\u9875\u9762\u8def\u5f84
+error.page=/pages/plugins/errors.jsp
+forward.page=/pages/plugins/forward.jsp
+
+# \u4e3a\u6bcf\u4e00\u4e2aAction\u5b9a\u4e49\u8df3\u8f6c\u8def\u5f84
+cn.mldn.action.EmpAction.add.page=/pages/back/admin/emp/emp_add.jsp
+cn.mldn.action.EmpAction.add.error=/pages/back/admin/emp/emp_add_pre.action
+cn.mldn.action.EmpAction.edit.page=/pages/back/admin/emp/emp_edit.jsp
+cn.mldn.action.EmpAction.list.page=/pages/back/admin/emp/emp_list.jsp
+cn.mldn.action.EmpAction.list.action=/pages/back/admin/emp/emp_list.action

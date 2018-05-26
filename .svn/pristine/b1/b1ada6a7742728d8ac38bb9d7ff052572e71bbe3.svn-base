@@ -1,0 +1,6 @@
+# \u5b9a\u4e49\u4e0a\u4f20\u6587\u4ef6\u9a8c\u8bc1\u89c4\u5219
+mime.types=image/bmp;image/gif;image/png;image/jpg;image/jpeg
+
+cn.mldn.action.EmpAction.edit=empno:long|ename:string|salary:double|level:int|hiredate:date
+cn.mldn.action.EmpAction.add=msg:string|status:boolean|inst:string[]|item:long[]|empno:long|ename:string|salary:double|level:int|hiredate:date
+# cn.mldn.action.EmpAction.add.mime=photo:image/bmp;image/gif;image/png;image/jpg;image/jpeg
