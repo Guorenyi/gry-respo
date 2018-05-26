@@ -14,6 +14,7 @@ import cn.mldn.util.web.annotation.Service;
  * 负责分析所有的程序类与注解
  */
 public class ConfigAnnotationUtil {
+	//保存所有的控制类对应的处理信息
 	private Map<String, ControllerRequestMapping> controllerMapping = new HashMap<String, ControllerRequestMapping>();
 	// 获取业务接口与子类的对象，key = 接口名字、value = 子类的类型
 	private Map<Class<?>, Class<?>> serviceMapping = new HashMap<Class<?>, Class<?>>();
